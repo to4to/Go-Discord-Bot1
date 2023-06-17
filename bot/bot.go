@@ -46,8 +46,8 @@ if m.Author.ID==BotID{
 	return 
 }
 
-if m.Content=="who made you"{
-_,_  =s.ChannelMessageSend(m.ChannelID,"visit him at:  github.com/to4to  ")
+if m.Content=="ping"{
+_,_  =s.ChannelMessageSend(m.ChannelID,"pong")
 }
 
 
